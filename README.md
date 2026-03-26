@@ -1,4 +1,5 @@
 # Predictive Analytics for Enhancing Sustainability in Petroleum Operations
+Note: The Flask web application, IoT hardware scripts, and Docker configuration are not included in this repository. This repo contains the data preprocessing pipeline and ML model notebooks only.
 
 > A graduation project by **Moataz Al Khaldi**, Mohammed Hussain Harb, and Ziyad Khaled BuDokhi  
 > King Faisal University — College of Computer Science & Information Technology  
