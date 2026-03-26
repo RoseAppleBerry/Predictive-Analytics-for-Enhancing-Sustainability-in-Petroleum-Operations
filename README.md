@@ -101,7 +101,7 @@ All six targets track the perfect-prediction diagonal extremely closely, confirm
 
 #### Confidence Intervals (95% CI from LOOCV Residuals)
 
-![XGBoost Confidence Intervals](confidence_xgboost.png)
+![XGBoost Confidence Intervals](confidencexgboost.png)
 
 Residuals are tightly symmetric around zero for all targets. CO₂ CI: ±0.0198, Methane: ±0.0101, Nitrous Oxide: ±0.0037 — all in normalised space.
 
@@ -141,7 +141,7 @@ Dense(6)
 
 #### Predicted vs Actual
 
-![LSTM Predicted vs Actual](lstm_predicted_vs_actual.png)
+![LSTM Predicted vs Actual](lstmpredictedvsactual.png)
 
 Strong trend capture for CO₂, Methane, and Nitrous Oxide. The model shows some scatter at high CO₂ values (>400 Mt), consistent with limited high-emission examples in the training sequence.
 
@@ -163,7 +163,7 @@ CO₂ CI: ±61.55 (original units), OIL_CO₂: ±54.02, GAS_CO₂: ±15.68. Wide
 
 ### Correlation Heatmap
 
-![Correlation Heatmap](correlation_heatmap.png)
+![Correlation Heatmap](correlationheatmap.png)
 
 Key observations:
 - `co2` and `total_ghg` are nearly perfectly correlated (0.97–1.00) — the features share a common trajectory
@@ -263,7 +263,7 @@ Built with **Flask** + **MySQL** (Docker). Role-based access via RBAC authentica
 
 ### Screenshot: XGBoost LOOCV Confidence Intervals (Terminal Output)
 
-![XGBoost CI Terminal](Screenshot_2025-04-10_064504.png)
+![XGBoost CI Terminal](Screenshot2025-04-10064504.png)
 
 ```
 --- CO2 ---         95% CI: (-0.01388, 0.01128)
