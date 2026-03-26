@@ -147,7 +147,7 @@ Strong trend capture for CO₂, Methane, and Nitrous Oxide. The model shows some
 
 #### Confidence Intervals
 
-![LSTM Confidence Intervals](lstm_ci_specefic_.png)
+![LSTM Confidence Intervals](lstmcispecefic.png)
 
 CO₂ CI: ±61.55 (original units), OIL_CO₂: ±54.02, GAS_CO₂: ±15.68. Wider than XGBoost, reflecting LSTM's higher variance under LOOCV on a small dataset.
 
